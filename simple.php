@@ -1,0 +1,3 @@
+		<?php /*<button type="submit" class="single_add_to_cart_button button alt"><?php echo $product->single_add_to_cart_text(); ?></button>*/ ?>
+
+	 	<a href="/?add-to-cart=<?php echo $product->id ?>" rel="nofollow" data-product_id="<?php echo $product->id ?>" data-product_sku="" data-quantity="1" class="button add_to_cart_button product_type_simple alt"><?php echo $product->single_add_to_cart_text(); ?></a>
